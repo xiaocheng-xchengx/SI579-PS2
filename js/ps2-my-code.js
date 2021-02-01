@@ -22,7 +22,7 @@ function addOne(x) {
 
 function largest(lst) {
   let largestNumber = null;
-  for (counter = 0; counter <= lst.length-1; counter++){
+  for (let counter = 0; counter <= lst.length-1; counter++){
     if (lst[counter] < lst[counter+1]){
       largestNumber = lst[counter+1];
     }else{
@@ -46,7 +46,7 @@ function largest(lst) {
 function fact(n) {
   let factNumber = n;
   if (n != 0){
-    for (counter = n-1; counter > 0; counter--){
+    for (let counter = n-1; counter > 0; counter--){
       factNumber = counter * factNumber;
       console.log(counter);
     }
