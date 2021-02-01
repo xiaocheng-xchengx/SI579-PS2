@@ -10,7 +10,7 @@
  */
 
 function addOne(x) {
-  addOneResult = x + 1;
+  let addOneResult = x + 1;
   return addOneResult;
 }
 
